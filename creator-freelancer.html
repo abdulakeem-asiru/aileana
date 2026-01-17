@@ -109,7 +109,7 @@ AIleana</title>
     class="header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] 
     md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] 
     max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 flex items-center 
-    justify-between px-2.5 xl:py-0 py-2.5 max-[400px]:max-w-[350px] 
+    justify-between px-2.5 xl:px-4 py-4 max-[400px]:max-w-[350px] 
      backdrop-blur-[25px] top-5 dark:border-stroke-6 bg-accent/60 dark:bg-background-9"
     data-ns-animate
     data-direction="up"
@@ -558,22 +558,40 @@ Mobile Menu
 Hero section
 ===========================-->
 <section
-  class="hero-section relative pt-[150px] lg:pt-[220px] pb-[100px] overflow-hidden"
+  class="hero-section relative pt-[150px] lg:pt-[220px] pb-[40px] overflow-hidden"
   aria-label="Hero section"
 >
-
-  <div class="main-container relative z-10  flex xl:flex-row flex-col justify-between items-center">
-    <div class="flex flex-col items-center justify-center xl:items-start xl:justify-start mb-12 md:mb-[72px] w-full">
+  <div
+    class="absolute top-[10%] lg:top-[13%] 2xl:-top-5 z-[-1] left-1/2 -translate-x-1/2 w-full h-full"
+    data-ns-animate
+    data-delay="0.2"
+    data-duration="0.4"
+    data-spring
+    data-offset="0"
+  >
+    <img
+      src="images/ns-img-109.svg"
+      alt="Hero background pattern"
+      class="block dark:hidden w-full"
+    />
+    <img
+      src="images/ns-img-dark-81.svg"
+      alt="Hero background pattern"
+      class="hidden dark:block w-full"
+    />
+  </div>
+  <div class="main-container relative z-10">
+    <div class="flex flex-col items-center justify-center mb-12 md:mb-[72px]">
       <span data-ns-animate data-delay="0.1" class="opacity-0 badge badge-green">
-        The Future of Social Commerce
+        Monetise & Thrive
       </span>
-      <div class="max-w-2xl mt-5 mb-10 md:mb-14 space-y-4 w-full mx-auto ">
-        <h1 data-ns-animate data-delay="0.2" class="opacity-0 max-lg:text-center">
-          Where Social Interaction <br>Becomes Income
+      <div class="max-w-4xl mt-5 mb-10 md:mb-14 space-y-4 w-full mx-auto text-center">
+        <h1 data-ns-animate data-delay="0.2" class="opacity-0">
+          Your Platform to Earn, <br class="hidden sm:block"/>Showcase, and Grow
         </h1>
-        <p data-ns-animate data-delay="0.3" class="opacity-0  max-lg:text-center">
-AIleana is the first social network where every post, chat, and live session can <br>generate income. Powered by AIVA AI,
- your social activity becomes <br>your revenue stream.
+        <p data-ns-animate data-delay="0.3" class="opacity-0 max-w-[700px] mx-auto">
+Connect directly with clients, monetize your skills, and manage your creative
+ work in one ethical, secure, and efficient ecosystem.
         </p>
       </div>
       <ul class="hero-buttons flex flex-col md:flex-row gap-4 max-md:w-full items-center">
@@ -612,228 +630,9 @@ AIleana is the first social network where every post, chat, and live session can
        
       </ul>
     </div>
-
-    <!-- Hero Image -->
-    <div
-      class="flex items-center relative justify-center sm:gap-8 w-full"
-    >
-
-      <div class="absolute -top-10  max-md:hidden  -left-10 z-20 max-sm:-translate-x-1/2 sm:left-[0%]">
-        <article
-          class="relative opacity-0"
-          data-ns-animate
-          data-animation-type="to"
-          data-direction="bottom"
-          data-offset="10"
-          data-rotation="-9"
-          data-delay="0.6"
-        >
-          <div
-            class="min-h-[188px] shadow-4 max-h-[188px] max-w-[250px] md:max-w-[302px] min-w-[250px] md:min-w-[302px] bg-background-1 dark:bg-background-9 rounded-xl border border-dashed border-stroke-1 dark:border-stroke-8 marketing-hero-asset-inner"
-          ></div>
-          <div
-            class="space-y-4 absolute inset-0 max-w-[250px] md:max-w-[302px] min-w-[250px] md:min-w-[302px] min-h-[188px] max-h-[188px] bg-background-1 dark:bg-background-6 shadow-4 rounded-xl p-6 -rotate-[10deg] marketing-hero-asset-content"
-          >
-            <div>
-              <h2 class="text-xl font-normal leading-[1.5]">AIVA Assistant</h2>
-              <p class="flex items-center gap-1 text-tagline-3">
-                <span aria-hidden="true">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="19"
-                    height="19"
-                    viewBox="0 0 19 19"
-                    fill="none"
-                  >
-                    <path
-                      d="M10.727 15.2367C13.9904 14.6613 16.1694 11.5494 15.594 8.28601C15.0185 5.02264 11.9066 2.84363 8.64322 3.41905C5.37986 3.99447 3.20084 7.10642 3.77626 10.3698C4.35168 13.6332 7.46363 15.8122 10.727 15.2367Z"
-                      class="stroke-secondary dark:stroke-accent"
-                      stroke-miterlimit="10"
-                    />
-                    <path
-                      d="M9.07812 5.87891L9.68589 9.32573L13.1327 8.71796"
-                      class="stroke-secondary dark:stroke-accent"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-                15 january 2025
-              </p>
-            </div>
-            <div>
-              <a
-                href="#"
-                class="px-4 py-1 rounded-[4px] text-tagline-3 bg-ns-yellow"
-                aria-label="View design category"
-                >Online</a
-              >
-            </div>
-            <div class="flex items-center justify-between">
-              <div class="flex -space-x-1 cursor-pointer" role="list" aria-label="Team members">
-                <img
-                  class="inline-block size-6 object-cover object-center rounded-full ring-[3px] ring-white bg-linear-[156deg,#FFF_32.92%,#A585FF_91%]"
-                  src="images/ns-avatar-9.png"
-                  alt="Team member 1"
-                />
-                <img
-                  class="inline-block size-6 obje rounded-full ring-[3px] ring-white bg-linear-[156deg,#FFF_32.92%,#A585FF_91%]"
-                  src="images/ns-avatar-10.png"
-                  alt="Team member 2"
-                />
-                <img
-                  class="inline-block size-6 obje rounded-full relative z-0 ring-[3px] ring-white bg-linear-[156deg,#FFF_32.92%,#A585FF_91%]"
-                  src="images/ns-avatar-11.png"
-                  alt="Team member 3"
-                />
-              </div>
-              <div class="flex items-center gap-3">
-                <p class="flex items-center gap-1">
-                  <span aria-hidden="true">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="17"
-                      height="17"
-                      viewBox="0 0 17 17"
-                      fill="none"
-                    >
-                      <path
-                        d="M3.49219 15.0195C3.49219 13.605 4.05409 12.2485 5.05428 11.2483C6.05448 10.2481 7.41103 9.6862 8.82552 9.6862C10.24 9.6862 11.5966 10.2481 12.5968 11.2483C13.597 12.2485 14.1589 13.605 14.1589 15.0195L12.8255 15.0195C12.8255 13.9587 12.4041 12.9412 11.6539 12.1911C10.9038 11.441 9.88639 11.0195 8.82552 11.0195C7.76465 11.0195 6.74724 11.441 5.99709 12.1911C5.24695 12.9412 4.82552 13.9587 4.82552 15.0195L3.49219 15.0195ZM8.82552 9.01953C6.61552 9.01953 4.82552 7.22953 4.82552 5.01953C4.82552 2.80953 6.61552 1.01953 8.82552 1.01953C11.0355 1.01953 12.8255 2.80953 12.8255 5.01953C12.8255 7.22953 11.0355 9.01953 8.82552 9.01953ZM8.82552 7.6862C10.2989 7.6862 11.4922 6.49286 11.4922 5.01953C11.4922 3.5462 10.2989 2.35286 8.82552 2.35286C7.35219 2.35286 6.15885 3.5462 6.15885 5.01953C6.15885 6.49286 7.35219 7.6862 8.82552 7.6862Z"
-                        class="fill-[#09121F] dark:fill-accent"
-                      />
-                    </svg>
-                  </span>
-                  <span class="text-tagline-3 text-secondary/60 dark:text-accent/60">5</span>
-                </p>
-                <p class="flex items-center gap-1">
-                  <span aria-hidden="true">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="17"
-                      height="17"
-                      viewBox="0 0 17 17"
-                      fill="none"
-                    >
-                      <path
-                        d="M2.16406 6.34952C2.16371 5.82432 2.26696 5.30421 2.46791 4.81898C2.66885 4.33374 2.96354 3.89291 3.3351 3.52172C3.70665 3.15054 4.14778 2.85629 4.63322 2.65583C5.11865 2.45538 5.63887 2.35264 6.16406 2.35352L11.4974 2.35352C13.7061 2.35352 15.4974 4.15019 15.4974 6.34952L15.4974 14.3535L6.16406 14.3535C3.9554 14.3535 2.16406 12.5569 2.16406 10.3575L2.16406 6.34952ZM14.1641 13.0202L14.1641 6.34952C14.1623 5.64319 13.8807 4.96635 13.3808 4.46727C12.881 3.96819 12.2037 3.68756 11.4974 3.68685L6.16406 3.68685C5.81396 3.68598 5.46713 3.75422 5.14346 3.88767C4.81979 4.02112 4.52565 4.21716 4.2779 4.46453C4.03016 4.7119 3.83368 5.00575 3.69975 5.32922C3.56581 5.65269 3.49704 5.99942 3.4974 6.34952L3.4974 10.3575C3.49916 11.0639 3.78081 11.7407 4.28064 12.2398C4.78046 12.7389 5.45773 13.0195 6.16406 13.0202L14.1641 13.0202ZM10.1641 7.68685L11.4974 7.68685L11.4974 9.02019L10.1641 9.02019L10.1641 7.68685ZM6.16406 7.68685L7.4974 7.68685L7.4974 9.02019L6.16406 9.02019L6.16406 7.68685Z"
-                        class="fill-[#09121F] dark:fill-accent"
-                      />
-                    </svg>
-                  </span>
-                  <span class="text-tagline-3 text-secondary/60 dark:text-accent/60">7</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="absolute bottom-[10%] lg:bottom-[10%] right-[0%] hidden z-20 sm:block">
-        <article
-          class="relative opacity-0"
-          data-ns-animate
-          data-animation-type="to"
-          data-direction="bottom"
-          data-offset="10"
-          data-rotation="9"
-          data-delay="0.2"
-        >
-          <div
-            class="min-h-[188px] max-h-[188px] shadow-4 max-w-[250px] md:max-w-[302px] min-w-[250px] md:min-w-[302px] bg-background-1 dark:bg-background-9 rounded-xl border border-dashed border-stroke-1 dark:border-stroke-8 marketing-hero-asset-inner-2"
-          ></div>
-
-          <div
-            class="space-y-4 absolute inset-0 max-w-[250px] md:max-w-[302px] min-w-[250px] md:min-w-[302px] min-h-[188px] max-h-[188px] bg-background-1 dark:bg-background-6 shadow-4 rounded-xl p-4 rotate-[10deg] marketing-hero-asset-content-2"
-          >
-            <div>
-              <h2 class="flex items-center gap-1 text-xl font-normal leading-[1.5]">
-                <span
-                  class="bg-primary-500 flex justify-center items-center p-1 rounded-full size-5"
-                  aria-hidden="true"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="11"
-                    viewBox="0 0 16 11"
-                    fill="none"
-                  >
-                    <path
-                      d="M1.48332 4.49826L3.93111 10.007L14.1693 1.65801"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-                Social Commerce
-              </h2>
-            </div>
-            <div>
-              <a
-                href="#"
-                class="px-4 py-1 rounded-[4px] text-tagline-3 bg-ns-green"
-                aria-label="View design category"
-                >Earning</a
-              >
-            </div>
-            <div class="flex items-center justify-between mt-12">
-              <p class="flex items-center gap-1">
-                <span aria-hidden="true">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="29"
-                    height="29"
-                    viewBox="0 0 29 29"
-                    fill="none"
-                  >
-                    <g clip-path="url(#clip0_866_12336)">
-                      <path
-                        d="M24.0386 5.65905C24.5822 5.7549 24.9456 6.27389 24.8498 6.81751L24.1974 10.5174L21.8805 12.1397L22.7065 7.45502L8.91919 5.02394L6.14082 20.7809L19.9281 23.2119L20.4071 20.4958L22.724 18.8735L21.7241 24.544C21.6282 25.0877 21.1093 25.4511 20.5656 25.3552L4.80872 22.5768C4.26511 22.481 3.90171 21.962 3.99756 21.4184L7.12323 3.69184C7.21908 3.14823 7.73807 2.78483 8.28168 2.88068L24.0386 5.65905ZM24.6074 12.6724L25.7544 14.3104L16.7439 20.6196L15.3498 20.3718L15.5969 18.9816L24.6074 12.6724ZM15.4085 14.2916L15.0612 16.2612L10.1371 15.393L10.4844 13.4233L15.4085 14.2916ZM19.0575 10.8733L18.7102 12.8429L10.8317 11.4537L11.179 9.48412L19.0575 10.8733Z"
-                        class="fill-[#09121F] dark:fill-accent"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_866_12336">
-                        <rect
-                          width="24"
-                          height="24"
-                          fill="white"
-                          transform="translate(4.6875 0.216797) rotate(10)"
-                        />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                </span>
-                <span class="text-tagline-3 text-secondary/60 dark:text-accent/60">Income</span>
-              </p>
-              <div>
-                <a
-                  href="#"
-                  class="px-2 py-1 rounded-[6px] text-white text-tagline-3 bg-primary-500"
-                  aria-label="Earn from what you enjoy"
-                  >Earn from what you enjoy</a
-                >
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-      <figure
-        class="opacity-0 max-w-[572px] w-full"
-        data-ns-animate
-        data-direction="bottom"
-        data-offset="20"
-        data-delay="0.2"
-      >
-        <img
-          src="images/smiling-man.png"
-          alt="showing email marketing dashboard"
-        />
-      </figure>
-    </div>
   </div>
 </section>
+
 
 
 <!-- Earn, Showcase, Succeed-->
@@ -860,7 +659,7 @@ AIleana is the first social network where every post, chat, and live session can
 
       <div class="space-y-[70px]">
         <!-- heading  -->
-        <div class="space-y-[20px] text-center md:text-left">
+        <div class="space-y-[20px] text-center ">
           <span data-ns-animate data-delay="0.2" class="badge badge-yellow">
             Earn, Showcase, Succeed
           </span>
@@ -875,7 +674,7 @@ AIleana is the first social network where every post, chat, and live session can
         </div>
 
         <!-- content  -->
-        <div class="max-w-[1178px] mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-0">
+        <div class="max-w-[1000px] mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-0">
           <!-- left side features  -->
           <div class="w-full gap-8 flex flex-col md:flex-row lg:flex-col">
             <!-- feature one  -->
@@ -942,38 +741,43 @@ AIleana is the first social network where every post, chat, and live session can
             data-delay="0.7"
             data-duration="0.7"
             data-offset="80"
-            class="w-full lg:w-[500px] h-full order-first lg:order-none lg:mt-[66px] xl:mt-0 lg:mr-6 xl:mr-0 flex-shrink-0"
+            class="w-full lg:w-[300px] h-full order-first lg:order-none lg:mt-[66px] xl:mt-0 lg:mr-6 xl:mr-0 flex-shrink-0"
           >
             <img
-              src="images/mobile-mockup.png"
+              src="images/sending.png"
               alt="Investment platform interface showing key features"
-              class="size-full object-cover"
+              class="size-full object-cover rounded-2xl"
+            />
+          </figure>
+
+            </div>
+          </div>
+
+                  <!-- content  -->
+        <div class="max-w-[1000px] mt-10 mx-auto flex flex-col justify-between lg:flex-row items-center gap-5 lg:gap-16">
+
+          <!-- feature img  -->
+          <figure
+            data-ns-animate
+            data-delay="0.7"
+            data-duration="0.7"
+            data-offset="80"
+            class="w-full lg:w-[300px] h-full order-first lg:order-none lg:mt-[66px] xl:mt-0 lg:mr-6 xl:mr-0 flex-shrink-0"
+          >
+            <img
+              src="images/attachement shopfront.png"
+              alt="Investment platform interface showing key features"
+              class="size-full object-cover rounded-2xl"
             />
           </figure>
 
           <!-- right side feature  -->
-          <div class="w-full gap-8 flex flex-col md:flex-row lg:flex-col lg:ml-4 xl:ml-0">
-            <!-- feature one  -->
-            <div
-              data-ns-animate
-              data-delay="0.6"
-              data-duration="0.5"
-              data-direction="right"
-              class="space-y-3 md:max-w-[300px] w-full"
-            >
-              <span class="block ns-shape-35 text-[36px] text-secondary dark:text-accent"></span>
-              <div>
-                <h3 class="text-tagline-1 font-medium">Fast pre-approvals</h3>
-                <p class="text-tagline-2">
-                  Know where you stand quickly—get pre-approved in hours, not days.
-                </p>
-              </div>
-            </div>
+          <div class=" gap-8 flex flex-col md:flex-row lg:flex-col">
 
             <!-- feature two  -->
             <div
               data-ns-animate
-              data-delay="0.7"
+              data-delay="0.6"
               data-duration="0.5"
               data-direction="right"
               class="space-y-3 md:max-w-[300px] w-full"
@@ -990,7 +794,7 @@ AIleana is the first social network where every post, chat, and live session can
             <!-- feature three  -->
             <div
               data-ns-animate
-              data-delay="0.8"
+              data-delay="0.7"
               data-duration="0.5"
               data-direction="right"
               class="space-y-3 md:max-w-[300px] w-full"
@@ -1005,13 +809,110 @@ AIleana is the first social network where every post, chat, and live session can
               </div>
             </div>
           </div>
-        </div>
       </div>
+        </div>
+
+
     </div>
   </div>
 </section>
 
+      <!-- =========================
+CTA section
+===========================-->
+<section class="bg-background-2 dark:bg-background-5 pt-[120px] pb-[100px] lg:pb-[200px]">
+  <div class="main-container">
+    <div class="">
+      <div class="text-center space-y-3">
+        <span data-ns-animate data-delay="0.2" class="badge badge-green mb-5 inline-block"
+          >Get started</span
+        >
+        <h2
+          id="newsletter-heading"
+          data-ns-animate
+          data-delay="0.3"
+          class="text-secondary dark:text-accent max-w-[1042px] mx-auto"
+        >
+          AIleana - Where Social Interaction Becomes Income
+        </h2>
+        <p data-ns-animate data-delay="0.4" class="max-w-[600px] mx-auto">
+          Join AIleana today and experience the future of messaging and commerce in one seamless platform.
+        </p>
+      </div>
 
+      <div data-ns-animate data-delay="0.5" class="space-y-8 mt-10 md:mt-[62px]">
+        <form
+          action="#"
+          method="post"
+          class="flex flex-col min-[410px]:flex-row items-center justify-center gap-3 cta-form"
+        >
+          <input
+            type="email"
+            name="email"
+            id="userEmail"
+            placeholder="Enter your email"
+            required
+            class="px-[18px] h-12 py-3 shadow-1 placeholder:text-secondary/50 rounded-full border border-stroke-1 dark:bg-background-6 dark:placeholder:text-white/40 text-secondary/60 dark:text-white/60 dark:bg-dark-200 dark:border-[#31332F] focus:border-primary-500 dark:focus:border-primary-500 focus:outline-none focus:ring-2 focus:ring-primary-500/20 sm:max-w-[440px] w-[85%] placeholder:font-normal font-normal"
+          />
+          <button
+            type="submit"
+            class="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent h-12 w-[85%] md:w-auto"
+          >
+            <span>Join Waitlist</span>
+          </button>
+        </form>
+
+        <ul
+          class="flex items-center flex-col md:flex-row gap-y-5 sm:gap-y-0 justify-center sm:gap-x-[42px] cta-list"
+        >
+          <li class="flex items-center justify-center gap-2">
+            <span
+              class="size-[18px] bg-secondary dark:bg-accent rounded-full flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="7"
+                viewBox="0 0 10 7"
+                fill="none"
+                aria-hidden="true"
+                class="shrink-0"
+              >
+                <path
+                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                  class="fill-white dark:fill-secondary"
+                />
+              </svg>
+            </span>
+            <p class="text-tagline-2">No credit card required</p>
+          </li>
+
+          <li class="flex items-center justify-center gap-2">
+            <span
+              class="size-[18px] bg-secondary dark:bg-accent rounded-full flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="7"
+                viewBox="0 0 10 7"
+                fill="none"
+                aria-hidden="true"
+                class="shrink-0"
+              >
+                <path
+                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                  class="fill-white dark:fill-secondary"
+                />
+              </svg>
+            </span>
+            <p class="text-tagline-2">All in One Social Commerce</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
     </main>
     <!-- =========================
